@@ -1,0 +1,78 @@
+{C:/Users/matt/Dropbox/Arch Project/memory.v} {1 {vlog -work work -nocovercells {C:\Users\matt\Dropbox\Arch Project\memory.v}
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module Memory
+
+Top level modules:
+	Memory
+
+} {} {}} {C:/Users/matt/Dropbox/Arch Project/control.v} {1 {vlog -work work -nocovercells {C:/Users/matt/Dropbox/Arch Project/control.v}
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module control
+
+Top level modules:
+	control
+
+} {} {}} {C:/Users/matt/Dropbox/Arch Project/testHW6.v} {1 {vlog -work work -nocovercells {C:/Users/matt/Dropbox/Arch Project/testHW6.v}
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module testHW6
+
+Top level modules:
+	testHW6
+
+} {} {}} {C:/Users/matt/Dropbox/Arch Project/ctrl.v} {1 {vlog -work work -nocovercells {C:/Users/matt/Dropbox/Arch Project/ctrl.v}
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module ctrl
+
+Top level modules:
+	ctrl
+
+} {} {}} {C:/Users/matt/Dropbox/Arch Project/mips_tb.v} {1 {vlog -work work -nocovercells {C:/Users/matt/Dropbox/Arch Project/mips_tb.v}
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module mips_tb
+
+Top level modules:
+	mips_tb
+
+} {} {}} {C:/Users/matt/Dropbox/Arch Project/alu.v} {1 {vlog -work work -nocovercells {C:/Users/matt/Dropbox/Arch Project/alu.v}
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} {C:/Users/matt/Dropbox/Arch Project/mux.v} {1 {vlog -work work -nocovercells {C:/Users/matt/Dropbox/Arch Project/mux.v}
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module mux
+
+Top level modules:
+	mux
+
+} {} {}} {C:/Users/matt/Dropbox/Arch Project/add32.v} {1 {vlog -work work -nocovercells {C:/Users/matt/Dropbox/Arch Project/add32.v}
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module add32
+
+Top level modules:
+	add32
+
+} {} {}} {C:/Users/matt/Dropbox/Arch Project/regbank.v} {1 {vlog -work work -nocovercells {C:\Users\matt\Dropbox\Arch Project\regbank.v}
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module regbank
+
+Top level modules:
+	regbank
+
+} {} {}} {C:/Users/matt/Dropbox/Arch Project/reg32.v} {1 {vlog -work work -nocovercells {C:/Users/matt/Dropbox/Arch Project/reg32.v}
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module reg32
+
+Top level modules:
+	reg32
+
+} {} {}} {C:/Users/matt/Dropbox/Arch Project/mips_cpu.v} {1 {vlog -work work -nocovercells {C:/Users/matt/Dropbox/Arch Project/mips_cpu.v}
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module mips_cpu
+
+Top level modules:
+	mips_cpu
+
+} {} {}}
