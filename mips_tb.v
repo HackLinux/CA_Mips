@@ -11,8 +11,8 @@ module mips_tb();
 	wire          mem_write;
 	wire  [31:0]  data_out;
 	
-	mips_cpu 	uut1(clk,rst,instr,data_out,inst_addr,data_addr,data_in,mem_read,mem_write);
-	Memory 		uut2(clk, inst_addr,instr,data_addr,data_in,mem_read,mem_write,data_out);
+	mips_cpu_adv uut1(clk,rst,instr,data_out,inst_addr,data_addr,data_in,mem_read,mem_write);
+	Memory 		 uut2(clk, inst_addr,instr,data_addr,data_in,mem_read,mem_write,data_out);
 	
 	always #5 clk = ~clk;
 	

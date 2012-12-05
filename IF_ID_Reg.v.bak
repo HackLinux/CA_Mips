@@ -1,0 +1,3 @@
+module IF_ID_Reg(input instr_address, input instruction);
+
+endmodule

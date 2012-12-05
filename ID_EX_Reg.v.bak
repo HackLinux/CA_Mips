@@ -1,0 +1,4 @@
+module ID_EX_Reg(input WB, input M, input EX, 
+		output WB, output M);
+		
+endmodule

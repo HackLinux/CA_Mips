@@ -61,3 +61,11 @@ set_global_assignment -name VERILOG_FILE ../ctrl.v
 set_global_assignment -name VERILOG_FILE ../alu.v
 set_global_assignment -name VERILOG_FILE ../mips_cpu.v
 set_global_assignment -name VERILOG_FILE ../mips_tb.v
+set_global_assignment -name VERILOG_FILE ../hazard_unit.v
+set_global_assignment -name VERILOG_FILE ../forward_unit.v
+set_global_assignment -name VERILOG_FILE ../ID_EX_Reg.v
+set_global_assignment -name VERILOG_FILE ../IF_ID_Reg.v
+set_global_assignment -name VERILOG_FILE ../EX_MEM_Reg.v
+set_global_assignment -name VERILOG_FILE ../MEM_WB_Reg.v
+set_global_assignment -name VERILOG_FILE ../mips_cpu_adv.v
+set_global_assignment -name VERILOG_FILE ../mux3.v

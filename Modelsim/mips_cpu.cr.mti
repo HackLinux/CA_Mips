@@ -1,4 +1,46 @@
-{C:/Users/matt/Dropbox/Arch Project/memory.v} {1 {vlog -work work -nocovercells {C:\Users\matt\Dropbox\Arch Project\memory.v}
+{C:/Users/matt/Dropbox/Arch Project/hazard_unit.v} {1 {vlog -work work -nocovercells {C:/Users/matt/Dropbox/Arch Project/hazard_unit.v}
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module hazard_unit
+
+Top level modules:
+	hazard_unit
+
+} {} {}} {C:/Users/matt/Dropbox/Arch Project/mips_cpu_adv.v} {1 {vlog -work work -nocovercells {C:/Users/matt/Dropbox/Arch Project/mips_cpu_adv.v}
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module mips_cpu_adv
+
+Top level modules:
+	mips_cpu_adv
+
+} {} {}} {C:/Users/matt/Dropbox/Arch Project/mux3.v} {1 {vlog -work work -nocovercells {C:/Users/matt/Dropbox/Arch Project/mux3.v}
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module mux3
+
+Top level modules:
+	mux3
+
+} {} {}} {C:/Users/matt/Dropbox/Arch Project/ID_EX_Reg.v} {1 {vlog -work work -nocovercells {C:/Users/matt/Dropbox/Arch Project/ID_EX_Reg.v}
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module ID_EX_Reg
+
+Top level modules:
+	ID_EX_Reg
+
+} {} {}} {C:/Users/matt/Dropbox/Arch Project/mips_tb.v} {1 {vlog -work work -nocovercells {C:/Users/matt/Dropbox/Arch Project/mips_tb.v}
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module mips_tb
+
+Top level modules:
+	mips_tb
+
+} {} {}} {C:/Users/matt/Dropbox/Arch Project/IF_ID_Reg.v} {1 {vlog -work work -nocovercells {C:/Users/matt/Dropbox/Arch Project/IF_ID_Reg.v}
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module IF_ID_Reg
+
+Top level modules:
+	IF_ID_Reg
+
+} {} {}} {C:/Users/matt/Dropbox/Arch Project/memory.v} {1 {vlog -work work -nocovercells {C:/Users/matt/Dropbox/Arch Project/memory.v}
 Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
 -- Compiling module Memory
 
@@ -11,27 +53,6 @@ Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
 
 Top level modules:
 	control
-
-} {} {}} {C:/Users/matt/Dropbox/Arch Project/testHW6.v} {1 {vlog -work work -nocovercells {C:/Users/matt/Dropbox/Arch Project/testHW6.v}
-Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
--- Compiling module testHW6
-
-Top level modules:
-	testHW6
-
-} {} {}} {C:/Users/matt/Dropbox/Arch Project/ctrl.v} {1 {vlog -work work -nocovercells {C:/Users/matt/Dropbox/Arch Project/ctrl.v}
-Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
--- Compiling module ctrl
-
-Top level modules:
-	ctrl
-
-} {} {}} {C:/Users/matt/Dropbox/Arch Project/mips_tb.v} {1 {vlog -work work -nocovercells {C:/Users/matt/Dropbox/Arch Project/mips_tb.v}
-Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
--- Compiling module mips_tb
-
-Top level modules:
-	mips_tb
 
 } {} {}} {C:/Users/matt/Dropbox/Arch Project/alu.v} {1 {vlog -work work -nocovercells {C:/Users/matt/Dropbox/Arch Project/alu.v}
 Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
@@ -47,6 +68,27 @@ Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
 Top level modules:
 	mux
 
+} {} {}} {C:/Users/matt/Dropbox/Arch Project/regbank.v} {1 {vlog -work work -nocovercells {C:/Users/matt/Dropbox/Arch Project/regbank.v}
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module regbank
+
+Top level modules:
+	regbank
+
+} {} {}} {C:/Users/matt/Dropbox/Arch Project/forward_unit.v} {1 {vlog -work work -nocovercells {C:/Users/matt/Dropbox/Arch Project/forward_unit.v}
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module forward_unit
+
+Top level modules:
+	forward_unit
+
+} {} {}} {C:/Users/matt/Dropbox/Arch Project/MEM_WB_Reg.v} {1 {vlog -work work -nocovercells {C:/Users/matt/Dropbox/Arch Project/MEM_WB_Reg.v}
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module MEM_WB_Reg
+
+Top level modules:
+	MEM_WB_Reg
+
 } {} {}} {C:/Users/matt/Dropbox/Arch Project/add32.v} {1 {vlog -work work -nocovercells {C:/Users/matt/Dropbox/Arch Project/add32.v}
 Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
 -- Compiling module add32
@@ -54,25 +96,18 @@ Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
 Top level modules:
 	add32
 
-} {} {}} {C:/Users/matt/Dropbox/Arch Project/regbank.v} {1 {vlog -work work -nocovercells {C:\Users\matt\Dropbox\Arch Project\regbank.v}
-Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
--- Compiling module regbank
-
-Top level modules:
-	regbank
-
-} {} {}} {C:/Users/matt/Dropbox/Arch Project/reg32.v} {1 {vlog -work work -nocovercells {C:/Users/matt/Dropbox/Arch Project/reg32.v}
-Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
--- Compiling module reg32
-
-Top level modules:
-	reg32
-
 } {} {}} {C:/Users/matt/Dropbox/Arch Project/mips_cpu.v} {1 {vlog -work work -nocovercells {C:/Users/matt/Dropbox/Arch Project/mips_cpu.v}
 Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
 -- Compiling module mips_cpu
 
 Top level modules:
 	mips_cpu
+
+} {} {}} {C:/Users/matt/Dropbox/Arch Project/EX_MEM_Reg.v} {1 {vlog -work work -nocovercells {C:/Users/matt/Dropbox/Arch Project/EX_MEM_Reg.v}
+Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+-- Compiling module EX_MEM_Reg
+
+Top level modules:
+	EX_MEM_Reg
 
 } {} {}}
