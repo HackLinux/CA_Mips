@@ -1,7 +1,0 @@
-module forward_unit(input ID_EX_RegisterRs, input ID_EX_RegisterRt, 
-	input EX_MEM_Register*, input EX_MEM_WB, input MEM_WB_Register*, input MEM_WB_WB, 
-	output ALU_Mux1, output ALU_Mux2);
-	
-
-	
-endmodule
