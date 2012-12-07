@@ -46,7 +46,7 @@ module ID_EX_Reg(input clk, input rst, input ID_EX_Mux,
 	assign RegAdd1_Out = RegAdd1_Reg;
 	assign RegAdd2_Out = RegAdd2_Reg;
 	
-	always@(posedge clk, posedge rst)
+	always@(negedge clk, posedge rst)
 	begin
 		if(rst)
 		begin
@@ -69,14 +69,14 @@ module ID_EX_Reg(input clk, input rst, input ID_EX_Mux,
 		end
 		else
 		begin
-			RegWrite_Reg 		<= ID_EX_Mux ? 1 : RegWrite;
-			MemtoReg_Reg 		<= ID_EX_Mux ? 1 : MemtoReg;
-			Branch_Reg 			<= ID_EX_Mux ? 1 : Branch;
-			MemRead_Reg 		<= ID_EX_Mux ? 1 : MemRead;
-			MemWrite_Reg 		<= ID_EX_Mux ? 1 : MemWrite;
-			RegDest_Reg 		<= ID_EX_Mux ? 1 : RegDest; 
-			ALUOp_Reg 			<= ID_EX_Mux ? 1 : ALUOp; 
-			ALUSrc_Reg 			<= ID_EX_Mux ? 1 : ALUSrc;
+			RegWrite_Reg 		<= ID_EX_Mux ? 0 : RegWrite;
+			MemtoReg_Reg 		<= ID_EX_Mux ? 0 : MemtoReg;
+			Branch_Reg 			<= ID_EX_Mux ? 0 : Branch;
+			MemRead_Reg 		<= ID_EX_Mux ? 0 : MemRead;
+			MemWrite_Reg 		<= ID_EX_Mux ? 0 : MemWrite;
+			RegDest_Reg 		<= ID_EX_Mux ? 0 : RegDest; 
+			ALUOp_Reg 			<= ID_EX_Mux ? 0 : ALUOp; 
+			ALUSrc_Reg 			<= ID_EX_Mux ? 0 : ALUSrc;
 			address_Reg 		<= address; 
 			RegData1_Reg 		<= RegData1; 
 			RegData2_Reg 		<= RegData2; 

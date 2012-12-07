@@ -18,7 +18,7 @@ module MEM_WB_Reg(input clk, input rst,
 	assign ALUResult_Out = ALUResult_Reg; 
 	assign RegWriteAdd_Out = RegWriteAdd_Reg; 
 	
-	always@(posedge clk, posedge rst)
+	always@(negedge clk, posedge rst)
 	begin
 		if(rst)
 		begin

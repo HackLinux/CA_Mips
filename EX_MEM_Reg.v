@@ -30,7 +30,7 @@ module EX_MEM_Reg(input clk, input rst,
 	assign WriteData_Out = WriteData_Reg; 
 	assign RegWriteAdd_Out = RegWriteAdd_Reg; 
 	
-	always@(posedge clk, posedge rst)
+	always@(negedge clk, posedge rst)
 	begin
 		if(rst)
 		begin

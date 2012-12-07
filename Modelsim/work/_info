@@ -18,7 +18,7 @@ r1
 Z9 !s90 -reportprogress|300|-work|work|-nocovercells|C:/Users/matt/Dropbox/Arch Project/add32.v|
 Z10 !s102 -nocovercells
 Z11 o-work work -nocovercells -O0
-Z12 !s108 1354678146.710000
+Z12 !s108 1354849436.464000
 Z13 !s107 C:/Users/matt/Dropbox/Arch Project/add32.v|
 !s85 0
 !s101 -O0
@@ -38,355 +38,374 @@ Z19 !s90 -reportprogress|300|-work|work|-nocovercells|C:/Users/matt/Dropbox/Arch
 R10
 R11
 Z20 n@a@l@u
-Z21 !s108 1354678145.824000
+Z21 !s108 1354849435.638000
 Z22 !s107 C:/Users/matt/Dropbox/Arch Project/alu.v|
 !s85 0
 !s101 -O0
-vcontrol
-Z23 !s100 aV32XhV]A^oa;JigC=lJM3
-Z24 I78GhLW;FkkC_ZG2hd@=>b3
-Z25 V9dYn6Aj_]gO=zOCk<h1e72
+vbranch_control
+Z23 !s100 3c5@0W?mcVQ?@DIQd`E>m1
+Z24 If@IjS0Va42CLe?Kce:j1b0
+Z25 VCmZVWVh^]n?<^3_oCUFV31
 R4
-Z26 w1353459964
-Z27 8C:/Users/matt/Dropbox/Arch Project/control.v
-Z28 FC:/Users/matt/Dropbox/Arch Project/control.v
+Z26 w1354759997
+Z27 8C:/Users/matt/Dropbox/Arch Project/branch_control.v
+Z28 FC:/Users/matt/Dropbox/Arch Project/branch_control.v
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1354849438.830000
+!s107 C:/Users/matt/Dropbox/Arch Project/branch_control.v|
+Z29 !s90 -reportprogress|300|-work|work|-nocovercells|C:/Users/matt/Dropbox/Arch Project/branch_control.v|
+!s101 -O0
+R10
+R11
+vcontrol
+Z30 !s100 aV32XhV]A^oa;JigC=lJM3
+Z31 I78GhLW;FkkC_ZG2hd@=>b3
+Z32 V9dYn6Aj_]gO=zOCk<h1e72
+R4
+Z33 w1353459964
+Z34 8C:/Users/matt/Dropbox/Arch Project/control.v
+Z35 FC:/Users/matt/Dropbox/Arch Project/control.v
 L0 1
 R8
 r1
 31
-Z29 !s90 -reportprogress|300|-work|work|-nocovercells|C:/Users/matt/Dropbox/Arch Project/control.v|
+Z36 !s90 -reportprogress|300|-work|work|-nocovercells|C:/Users/matt/Dropbox/Arch Project/control.v|
 R10
 R11
-Z30 !s108 1354678147.132000
-Z31 !s107 C:/Users/matt/Dropbox/Arch Project/control.v|
+Z37 !s108 1354849436.894000
+Z38 !s107 C:/Users/matt/Dropbox/Arch Project/control.v|
 !s85 0
 !s101 -O0
 vctrl
-Z32 !s100 W6]5eH=Q=mh0EJQ@JHdGU3
-Z33 IYT^gO:KCIg[PY[23V7hLo3
-Z34 V^TmcYak2M`FV0c2_X^FWd3
+Z39 !s100 W6]5eH=Q=mh0EJQ@JHdGU3
+Z40 IYT^gO:KCIg[PY[23V7hLo3
+Z41 V^TmcYak2M`FV0c2_X^FWd3
 R4
 R5
-Z35 8C:/Users/matt/Dropbox/Arch Project/ctrl.v
-Z36 FC:/Users/matt/Dropbox/Arch Project/ctrl.v
+Z42 8C:/Users/matt/Dropbox/Arch Project/ctrl.v
+Z43 FC:/Users/matt/Dropbox/Arch Project/ctrl.v
 L0 1
 R8
 r1
 31
-Z37 !s90 -reportprogress|300|-work|work|-nocovercells|C:/Users/matt/Dropbox/Arch Project/ctrl.v|
+Z44 !s90 -reportprogress|300|-work|work|-nocovercells|C:/Users/matt/Dropbox/Arch Project/ctrl.v|
 R10
 R11
-Z38 !s108 1353461287.185000
-Z39 !s107 C:/Users/matt/Dropbox/Arch Project/ctrl.v|
+Z45 !s108 1353461287.185000
+Z46 !s107 C:/Users/matt/Dropbox/Arch Project/ctrl.v|
 !s85 0
 !s101 -O0
 vEX_MEM_Reg
-Z40 !s100 Z@6[>:SN0>XeX@gUK1PC_2
-Z41 I7dz:^h<QjGJ4?om2LmmZ;0
-Z42 VH@:6NejVA>;HlgOom15Uz1
+Z47 !s100 klYFM]lXlY5k?Ma7d`FQ81
+Z48 IVLNc6SlJ`=zLmB;:S119]3
+Z49 VH@:6NejVA>;HlgOom15Uz1
 R4
-Z43 w1354669297
-Z44 8C:/Users/matt/Dropbox/Arch Project/EX_MEM_Reg.v
-Z45 FC:/Users/matt/Dropbox/Arch Project/EX_MEM_Reg.v
+Z50 w1354846671
+Z51 8C:/Users/matt/Dropbox/Arch Project/EX_MEM_Reg.v
+Z52 FC:/Users/matt/Dropbox/Arch Project/EX_MEM_Reg.v
 L0 1
 R8
 r1
 31
-Z46 !s90 -reportprogress|300|-work|work|-nocovercells|C:/Users/matt/Dropbox/Arch Project/EX_MEM_Reg.v|
+Z53 !s90 -reportprogress|300|-work|work|-nocovercells|C:/Users/matt/Dropbox/Arch Project/EX_MEM_Reg.v|
 R10
 R11
-Z47 n@e@x_@m@e@m_@reg
-Z48 !s108 1354678147.313000
-Z49 !s107 C:/Users/matt/Dropbox/Arch Project/EX_MEM_Reg.v|
+Z54 n@e@x_@m@e@m_@reg
+Z55 !s108 1354849437.260000
+Z56 !s107 C:/Users/matt/Dropbox/Arch Project/EX_MEM_Reg.v|
 !s85 0
 !s101 -O0
 vforward_unit
-Z50 !s100 51OXDG:6Y:>7C>EGc2RfN2
-Z51 Ij22SzfdGSl;z=z7cAzII<0
-Z52 Vm9TMK]WW3<CSJM7[^3:GE2
+Z57 !s100 hBU:RDG@W46:2<_@>lZ`V0
+Z58 Ib[K:F5e@00POf0ccFGmoh0
+Z59 Vm9TMK]WW3<CSJM7[^3:GE2
 R4
-Z53 w1354676777
-Z54 8C:/Users/matt/Dropbox/Arch Project/forward_unit.v
-Z55 FC:/Users/matt/Dropbox/Arch Project/forward_unit.v
+Z60 w1354843760
+Z61 8C:/Users/matt/Dropbox/Arch Project/forward_unit.v
+Z62 FC:/Users/matt/Dropbox/Arch Project/forward_unit.v
 L0 1
 R8
 r1
 31
-Z56 !s90 -reportprogress|300|-work|work|-nocovercells|C:/Users/matt/Dropbox/Arch Project/forward_unit.v|
+Z63 !s90 -reportprogress|300|-work|work|-nocovercells|C:/Users/matt/Dropbox/Arch Project/forward_unit.v|
 R10
 R11
-Z57 !s108 1354678148.337000
-Z58 !s107 C:/Users/matt/Dropbox/Arch Project/forward_unit.v|
+Z64 !s108 1354849438.068000
+Z65 !s107 C:/Users/matt/Dropbox/Arch Project/forward_unit.v|
 !s85 0
 !s101 -O0
 vhazard_unit
-Z59 !s100 b8ojM_OO2RF:o:V<cQ9@G1
-Z60 IXG47O>fA[Hm<DS2?f8z1R3
-Z61 VDdek69oS5iN4RJPV]8e?]1
+Z66 !s100 b8ojM_OO2RF:o:V<cQ9@G1
+Z67 IXG47O>fA[Hm<DS2?f8z1R3
+Z68 VDdek69oS5iN4RJPV]8e?]1
 R4
-Z62 w1354677485
-Z63 8C:/Users/matt/Dropbox/Arch Project/hazard_unit.v
-Z64 FC:/Users/matt/Dropbox/Arch Project/hazard_unit.v
+Z69 w1354677485
+Z70 8C:/Users/matt/Dropbox/Arch Project/hazard_unit.v
+Z71 FC:/Users/matt/Dropbox/Arch Project/hazard_unit.v
 L0 1
 R8
 r1
 31
-Z65 !s90 -reportprogress|300|-work|work|-nocovercells|C:/Users/matt/Dropbox/Arch Project/hazard_unit.v|
+Z72 !s90 -reportprogress|300|-work|work|-nocovercells|C:/Users/matt/Dropbox/Arch Project/hazard_unit.v|
 R10
 R11
-Z66 !s108 1354678148.505000
-Z67 !s107 C:/Users/matt/Dropbox/Arch Project/hazard_unit.v|
+Z73 !s108 1354849438.263000
+Z74 !s107 C:/Users/matt/Dropbox/Arch Project/hazard_unit.v|
 !s85 0
 !s101 -O0
 vID_EX_Reg
-Z68 !s100 ZFilz`Zj]?_MJJfPD=9`M1
-Z69 I>cgY^J]OnBiKHHnYXYBcz1
-Z70 VF8jRndMkc=MFc9g;h2kZY0
+Z75 !s100 WW`?N=3DldD:EJR3WOmbh2
+Z76 IngPmbK:nN26kaWcijA[jR2
+Z77 VF8jRndMkc=MFc9g;h2kZY0
 R4
-Z71 w1354677978
-Z72 8C:/Users/matt/Dropbox/Arch Project/ID_EX_Reg.v
-Z73 FC:/Users/matt/Dropbox/Arch Project/ID_EX_Reg.v
+Z78 w1354846660
+Z79 8C:/Users/matt/Dropbox/Arch Project/ID_EX_Reg.v
+Z80 FC:/Users/matt/Dropbox/Arch Project/ID_EX_Reg.v
 L0 1
 R8
 r1
 31
-Z74 !s90 -reportprogress|300|-work|work|-nocovercells|C:/Users/matt/Dropbox/Arch Project/ID_EX_Reg.v|
+Z81 !s90 -reportprogress|300|-work|work|-nocovercells|C:/Users/matt/Dropbox/Arch Project/ID_EX_Reg.v|
 R10
 R11
-Z75 n@i@d_@e@x_@reg
-Z76 !s108 1354678147.709000
-Z77 !s107 C:/Users/matt/Dropbox/Arch Project/ID_EX_Reg.v|
+Z82 n@i@d_@e@x_@reg
+Z83 !s108 1354849437.579000
+Z84 !s107 C:/Users/matt/Dropbox/Arch Project/ID_EX_Reg.v|
 !s85 0
 !s101 -O0
 vIF_ID_Reg
-Z78 !s100 1dR;YgCd<X:YS6E@l9m?C2
-Z79 IK@Aca[1<eIb@4bL@db7R>1
-Z80 VZ4mAF>mF?NLAKFm0C>2o`2
+Z85 !s100 YT>mFn0f2lS1E7cLGQK2?0
+Z86 I:ReTBbTWGC`17]GXPfKoN0
+Z87 VgJ]feP:jPMGSd33OaKQXi1
 R4
-Z81 w1354677590
-Z82 8C:/Users/matt/Dropbox/Arch Project/IF_ID_Reg.v
-Z83 FC:/Users/matt/Dropbox/Arch Project/IF_ID_Reg.v
+Z88 w1354848188
+Z89 8C:/Users/matt/Dropbox/Arch Project/IF_ID_Reg.v
+Z90 FC:/Users/matt/Dropbox/Arch Project/IF_ID_Reg.v
 L0 1
 R8
 r1
 31
-Z84 !s90 -reportprogress|300|-work|work|-nocovercells|C:/Users/matt/Dropbox/Arch Project/IF_ID_Reg.v|
+Z91 !s90 -reportprogress|300|-work|work|-nocovercells|C:/Users/matt/Dropbox/Arch Project/IF_ID_Reg.v|
 R10
 R11
-Z85 n@i@f_@i@d_@reg
-Z86 !s108 1354678147.903000
-Z87 !s107 C:/Users/matt/Dropbox/Arch Project/IF_ID_Reg.v|
+Z92 n@i@f_@i@d_@reg
+Z93 !s108 1354849437.713000
+Z94 !s107 C:/Users/matt/Dropbox/Arch Project/IF_ID_Reg.v|
 !s85 0
 !s101 -O0
 vMEM_WB_Reg
-Z88 !s100 Nj0T4JCnaMmMWj@Mi90ZJ3
-Z89 IzM8KS3:JoC;_<`;3NFX092
-Z90 VB]eo2od7IX1I1dCLHdN9:0
+Z95 !s100 `;QIh?J`gI=<MP9H[C6R;0
+Z96 Id7<YKBYPmS4DA`9Nj^zcU2
+Z97 VB]eo2od7IX1I1dCLHdN9:0
 R4
-Z91 w1354669307
-Z92 8C:/Users/matt/Dropbox/Arch Project/MEM_WB_Reg.v
-Z93 FC:/Users/matt/Dropbox/Arch Project/MEM_WB_Reg.v
+Z98 w1354846679
+Z99 8C:/Users/matt/Dropbox/Arch Project/MEM_WB_Reg.v
+Z100 FC:/Users/matt/Dropbox/Arch Project/MEM_WB_Reg.v
 L0 1
 R8
 r1
 31
-Z94 !s90 -reportprogress|300|-work|work|-nocovercells|C:/Users/matt/Dropbox/Arch Project/MEM_WB_Reg.v|
+Z101 !s90 -reportprogress|300|-work|work|-nocovercells|C:/Users/matt/Dropbox/Arch Project/MEM_WB_Reg.v|
 R10
 R11
-Z95 n@m@e@m_@w@b_@reg
-Z96 !s108 1354678148.163000
-Z97 !s107 C:/Users/matt/Dropbox/Arch Project/MEM_WB_Reg.v|
+Z102 n@m@e@m_@w@b_@reg
+Z103 !s108 1354849437.895000
+Z104 !s107 C:/Users/matt/Dropbox/Arch Project/MEM_WB_Reg.v|
 !s85 0
 !s101 -O0
 vMemory
-Z98 !s100 CeA]ZLo>lKRf@Wi>24X^U1
-Z99 Im:<<45QDgDa7b6NJIiNR:1
-Z100 VQ8?7KfnMLJ`hVCY_IEnf13
+Z105 !s100 NI282n]f1]1BWG7@=;6ka0
+Z106 Ie1EM3LknT4ZH9`LO`[^X:2
+Z107 VQ8?7KfnMLJ`hVCY_IEnf13
 R4
-Z101 w1353460202
-Z102 8C:/Users/matt/Dropbox/Arch Project/memory.v
-Z103 FC:/Users/matt/Dropbox/Arch Project/memory.v
+Z108 w1354848425
+Z109 8C:/Users/matt/Dropbox/Arch Project/memory.v
+Z110 FC:/Users/matt/Dropbox/Arch Project/memory.v
 L0 7
 R8
 r1
 31
-Z104 !s90 -reportprogress|300|-work|work|-nocovercells|C:/Users/matt/Dropbox/Arch Project/memory.v|
+Z111 !s90 -reportprogress|300|-work|work|-nocovercells|C:/Users/matt/Dropbox/Arch Project/memory.v|
 R10
 R11
-Z105 n@memory
-Z106 !s108 1354678146.306000
-Z107 !s107 C:/Users/matt/Dropbox/Arch Project/memory.v|
+Z112 n@memory
+Z113 !s108 1354849436.038000
+Z114 !s107 C:/Users/matt/Dropbox/Arch Project/memory.v|
 !s85 0
 !s101 -O0
 vmips_cpu
-Z108 !s100 X7a>6JCg`@^TO<eM82[2_0
-Z109 I@`8k87<o7OBUJ3Vk7G5oX0
-Z110 Vd5TWYnk4a^6?VVBSmGA691
+Z115 !s100 X7a>6JCg`@^TO<eM82[2_0
+Z116 I@`8k87<o7OBUJ3Vk7G5oX0
+Z117 Vd5TWYnk4a^6?VVBSmGA691
 R4
-Z111 w1353458968
-Z112 8C:/Users/matt/Dropbox/Arch Project/mips_cpu.v
-Z113 FC:/Users/matt/Dropbox/Arch Project/mips_cpu.v
+Z118 w1353458968
+Z119 8C:/Users/matt/Dropbox/Arch Project/mips_cpu.v
+Z120 FC:/Users/matt/Dropbox/Arch Project/mips_cpu.v
 L0 1
 R8
 r1
 31
-Z114 !s90 -reportprogress|300|-work|work|-nocovercells|C:/Users/matt/Dropbox/Arch Project/mips_cpu.v|
+Z121 !s90 -reportprogress|300|-work|work|-nocovercells|C:/Users/matt/Dropbox/Arch Project/mips_cpu.v|
 R10
 R11
-Z115 !s108 1354678146.951000
-Z116 !s107 C:/Users/matt/Dropbox/Arch Project/mips_cpu.v|
+Z122 !s108 1354849436.647000
+Z123 !s107 C:/Users/matt/Dropbox/Arch Project/mips_cpu.v|
 !s85 0
 !s101 -O0
 vmips_cpu_adv
-!s100 hX<;?gzHZV1lLBhH27Kc63
-IVcE0cPa6E93U[U8Vn2L@?2
-Z117 VMmHMM1Uc5bffSa?ETZBfC0
+Z124 IN_cBdPUk9A^L1lETz6XJ93
+Z125 VMmHMM1Uc5bffSa?ETZBfC0
 R4
-w1354678105
-Z118 8C:/Users/matt/Dropbox/Arch Project/mips_cpu_adv.v
-Z119 FC:/Users/matt/Dropbox/Arch Project/mips_cpu_adv.v
+Z126 w1354849431
+Z127 8C:/Users/matt/Dropbox/Arch Project/mips_cpu_adv.v
+Z128 FC:/Users/matt/Dropbox/Arch Project/mips_cpu_adv.v
 L0 1
 R8
 r1
+31
+Z129 !s90 -reportprogress|300|-work|work|-nocovercells|C:/Users/matt/Dropbox/Arch Project/mips_cpu_adv.v|
+R10
+R11
+Z130 !s100 d@:AKj0lk_GhczSM;U32=2
 !s85 0
-31
-!s108 1354678149.045000
-!s107 C:/Users/matt/Dropbox/Arch Project/mips_cpu_adv.v|
-Z120 !s90 -reportprogress|300|-work|work|-nocovercells|C:/Users/matt/Dropbox/Arch Project/mips_cpu_adv.v|
+Z131 !s108 1354849438.621000
+Z132 !s107 C:/Users/matt/Dropbox/Arch Project/mips_cpu_adv.v|
 !s101 -O0
-R10
-R11
 vmips_tb
-Z121 !s100 kQC^D`0U>0aIog<0oO=JO2
-Z122 ITQlJWDK^U^kioHoT41bAW3
-Z123 VHfL@J;=TiSmbe>@j83EoJ0
+Z133 !s100 [<YCz?gQgdh^;e0J@B[Qh1
+Z134 IEb?3VYezAbVH[`@T;:Q^I1
+Z135 VHfL@J;=TiSmbe>@j83EoJ0
 R4
-Z124 w1354677182
-Z125 8C:/Users/matt/Dropbox/Arch Project/mips_tb.v
-Z126 FC:/Users/matt/Dropbox/Arch Project/mips_tb.v
+Z136 w1354845558
+Z137 8C:/Users/matt/Dropbox/Arch Project/mips_tb.v
+Z138 FC:/Users/matt/Dropbox/Arch Project/mips_tb.v
 L0 1
 R8
 r1
 31
-Z127 !s90 -reportprogress|300|-work|work|-nocovercells|C:/Users/matt/Dropbox/Arch Project/mips_tb.v|
+Z139 !s90 -reportprogress|300|-work|work|-nocovercells|C:/Users/matt/Dropbox/Arch Project/mips_tb.v|
 R10
 R11
-Z128 !s108 1354678146.110000
-Z129 !s107 C:/Users/matt/Dropbox/Arch Project/mips_tb.v|
+Z140 !s108 1354849435.910000
+Z141 !s107 C:/Users/matt/Dropbox/Arch Project/mips_tb.v|
 !s85 0
 !s101 -O0
 vmux
-Z130 !s100 L<G;H4`1_5n=OQz3m>X?N2
-Z131 IXbb:G0FX2eJ[l;O7^JM5Q3
-Z132 VgG:=AVmL0clEJI>n:jHnk1
+Z142 !s100 L<G;H4`1_5n=OQz3m>X?N2
+Z143 IXbb:G0FX2eJ[l;O7^JM5Q3
+Z144 VgG:=AVmL0clEJI>n:jHnk1
 R4
 R5
-Z133 8C:/Users/matt/Dropbox/Arch Project/mux.v
-Z134 FC:/Users/matt/Dropbox/Arch Project/mux.v
+Z145 8C:/Users/matt/Dropbox/Arch Project/mux.v
+Z146 FC:/Users/matt/Dropbox/Arch Project/mux.v
 L0 1
 R8
 r1
 31
-Z135 !s90 -reportprogress|300|-work|work|-nocovercells|C:/Users/matt/Dropbox/Arch Project/mux.v|
+Z147 !s90 -reportprogress|300|-work|work|-nocovercells|C:/Users/matt/Dropbox/Arch Project/mux.v|
 R10
 R11
-Z136 !s108 1354678145.931000
-Z137 !s107 C:/Users/matt/Dropbox/Arch Project/mux.v|
+Z148 !s108 1354849435.749000
+Z149 !s107 C:/Users/matt/Dropbox/Arch Project/mux.v|
 !s85 0
 !s101 -O0
 vmux3
-Z138 !s100 Alo6dkmFNbh_046liHNBI0
-Z139 IzPz1BmgiK>4U4CSi[L:fz0
-Z140 V2LiOJZmR@HbUWlHV[4FMS0
+Z150 !s100 Ymi:@>0SKOc_`MHDVo0Un3
+Z151 ITU:X=839[nb5mF]HA2V^03
+Z152 V2LiOJZmR@HbUWlHV[4FMS0
 R4
-Z141 w1354673207
-Z142 8C:/Users/matt/Dropbox/Arch Project/mux3.v
-Z143 FC:/Users/matt/Dropbox/Arch Project/mux3.v
+Z153 w1354842245
+Z154 8C:/Users/matt/Dropbox/Arch Project/mux3.v
+Z155 FC:/Users/matt/Dropbox/Arch Project/mux3.v
 L0 1
 R8
 r1
 31
-Z144 !s90 -reportprogress|300|-work|work|-nocovercells|C:/Users/matt/Dropbox/Arch Project/mux3.v|
+Z156 !s90 -reportprogress|300|-work|work|-nocovercells|C:/Users/matt/Dropbox/Arch Project/mux3.v|
 R10
 R11
+Z157 !s108 1354849438.433000
+Z158 !s107 C:/Users/matt/Dropbox/Arch Project/mux3.v|
 !s85 0
-Z145 !s108 1354678148.837000
-Z146 !s107 C:/Users/matt/Dropbox/Arch Project/mux3.v|
 !s101 -O0
 vreg32
-Z147 !s100 fonOQBUF<UN^Ra9QZUlgo1
-Z148 IE1][z`5X10ol;T0@Pao533
-Z149 V4A_8YI:kgia]WWXU=hMfS2
+Z159 !s100 fonOQBUF<UN^Ra9QZUlgo1
+Z160 IE1][z`5X10ol;T0@Pao533
+Z161 V4A_8YI:kgia]WWXU=hMfS2
 R4
 R5
-Z150 8C:/Users/matt/Dropbox/Arch Project/reg32.v
-Z151 FC:/Users/matt/Dropbox/Arch Project/reg32.v
+Z162 8C:/Users/matt/Dropbox/Arch Project/reg32.v
+Z163 FC:/Users/matt/Dropbox/Arch Project/reg32.v
 L0 1
 R8
 r1
 31
-Z152 !s90 -reportprogress|300|-work|work|-nocovercells|C:/Users/matt/Dropbox/Arch Project/reg32.v|
+Z164 !s90 -reportprogress|300|-work|work|-nocovercells|C:/Users/matt/Dropbox/Arch Project/reg32.v|
 R10
 R11
-Z153 !s108 1353461287.466000
-Z154 !s107 C:/Users/matt/Dropbox/Arch Project/reg32.v|
+Z165 !s108 1353461287.466000
+Z166 !s107 C:/Users/matt/Dropbox/Arch Project/reg32.v|
 !s85 0
 !s101 -O0
 vreg3232
-Z155 !s100 >LBn_ZB2?<;JM2j?82J263
-Z156 In_6`iHYOgm3C9e;TD95U22
-Z157 VEz<M;RElJ3f0VmgFi7FSZ3
+Z167 !s100 >LBn_ZB2?<;JM2j?82J263
+Z168 In_6`iHYOgm3C9e;TD95U22
+Z169 VEz<M;RElJ3f0VmgFi7FSZ3
 R4
-Z158 w1352903379
-Z159 8C:/Users/matt/Dropbox/Arch Project/reg3232.v
-Z160 FC:/Users/matt/Dropbox/Arch Project/reg3232.v
+Z170 w1352903379
+Z171 8C:/Users/matt/Dropbox/Arch Project/reg3232.v
+Z172 FC:/Users/matt/Dropbox/Arch Project/reg3232.v
 L0 1
 R8
 r1
 31
-Z161 !s90 -reportprogress|300|-work|work|-nocovercells|C:/Users/matt/Dropbox/Arch Project/reg3232.v|
+Z173 !s90 -reportprogress|300|-work|work|-nocovercells|C:/Users/matt/Dropbox/Arch Project/reg3232.v|
 R10
 R11
-Z162 !s108 1353280598.688000
-Z163 !s107 C:/Users/matt/Dropbox/Arch Project/reg3232.v|
+Z174 !s108 1353280598.688000
+Z175 !s107 C:/Users/matt/Dropbox/Arch Project/reg3232.v|
 !s85 0
 !s101 -O0
 vregbank
-Z164 !s100 @c2nn1]09?COoU8_>^QDb1
-Z165 I_G=N<CCR2IRYg<LVfSOZT1
-Z166 VMUN`CS2CPg9kSAZC^jJEi2
+Z176 !s100 Jd8^b7;RlV^17L^i[QDjn0
+Z177 IJ32P<lXAMN>f4OIBXQ5P11
+Z178 VMUN`CS2CPg9kSAZC^jJEi2
 R4
-Z167 w1353455188
-Z168 8C:/Users/matt/Dropbox/Arch Project/regbank.v
-Z169 FC:/Users/matt/Dropbox/Arch Project/regbank.v
+Z179 w1354846130
+Z180 8C:/Users/matt/Dropbox/Arch Project/regbank.v
+Z181 FC:/Users/matt/Dropbox/Arch Project/regbank.v
 L0 1
 R8
 r1
 31
-Z170 !s90 -reportprogress|300|-work|work|-nocovercells|C:/Users/matt/Dropbox/Arch Project/regbank.v|
+Z182 !s90 -reportprogress|300|-work|work|-nocovercells|C:/Users/matt/Dropbox/Arch Project/regbank.v|
 R10
 R11
-Z171 !s108 1354678146.506000
-Z172 !s107 C:/Users/matt/Dropbox/Arch Project/regbank.v|
+Z183 !s108 1354849436.249000
+Z184 !s107 C:/Users/matt/Dropbox/Arch Project/regbank.v|
 !s85 0
 !s101 -O0
 vtestHW6
-Z173 !s100 e:PHlQ<<b_ZnNPaO;cF4h3
-Z174 IMaYJendDRB?2U17>[XfPl3
-Z175 Vb[`LC2?D>05Mk^n4j8AG23
+Z185 !s100 e:PHlQ<<b_ZnNPaO;cF4h3
+Z186 IMaYJendDRB?2U17>[XfPl3
+Z187 Vb[`LC2?D>05Mk^n4j8AG23
 R4
-Z176 w1353293501
-Z177 8C:/Users/matt/Dropbox/Arch Project/testHW6.v
-Z178 FC:/Users/matt/Dropbox/Arch Project/testHW6.v
+Z188 w1353293501
+Z189 8C:/Users/matt/Dropbox/Arch Project/testHW6.v
+Z190 FC:/Users/matt/Dropbox/Arch Project/testHW6.v
 L0 1
 R8
 r1
 31
-Z179 !s90 -reportprogress|300|-work|work|-nocovercells|C:/Users/matt/Dropbox/Arch Project/testHW6.v|
+Z191 !s90 -reportprogress|300|-work|work|-nocovercells|C:/Users/matt/Dropbox/Arch Project/testHW6.v|
 R10
 R11
-Z180 ntest@h@w6
-Z181 !s108 1353461287.684000
-Z182 !s107 C:/Users/matt/Dropbox/Arch Project/testHW6.v|
+Z192 ntest@h@w6
+Z193 !s108 1353461287.684000
+Z194 !s107 C:/Users/matt/Dropbox/Arch Project/testHW6.v|
 !s85 0
 !s101 -O0

@@ -3,7 +3,7 @@ module mips_cpu_adv(input clk, input rst, input [31:0] instr, input [31:0] data,
 	
 	//Control signals
 	wire RegDst;
-	//wire Jump;
+	wire Jump;
 	wire Branch;
 	wire MemRead;
 	wire MemtoReg;
@@ -22,10 +22,9 @@ module mips_cpu_adv(input clk, input rst, input [31:0] instr, input [31:0] data,
 	wire [31:0] RegData2;
 	wire [31:0] signExtend;
 	
-	wire [31:0] BRMuxOut;
-	wire [31:0] JMPMuxOut;
+	wire [31:0] BranchOut;
 	wire Zero;
-	//wire [31:0] JmpAddr;
+	wire [31:0] JmpAddr;
 	wire [31:0] IncrAddOut;
 	wire [31:0] BrnchAddOut;
 	reg  [31:0] PC = 31'h1000;
@@ -76,9 +75,12 @@ module mips_cpu_adv(input clk, input rst, input [31:0] instr, input [31:0] data,
 	wire [31:0] MEM_WB_ALUResult;
 	wire [4:0] MEM_WB_RegWriteAdd;
 	
+	wire [31:0] BranchAddress;
+	
 	wire IF_ID_Write;
 	wire PCWrite;
 	wire ID_EX_Mux;
+	wire DoBranch;
 	
 	assign instr_addr = PC;
 	
@@ -95,7 +97,6 @@ module mips_cpu_adv(input clk, input rst, input [31:0] instr, input [31:0] data,
 	assign mem_read = EX_MEM_MemRead;
 	assign mem_write = EX_MEM_MemWrite;
 	//TODO - verify
-	//assign JmpAddr = EX_MEM_address[25:0] << 2;
 	assign BRMuxSelect = EX_MEM_Branch & EX_MEM_zero;
 	
 	//Mux declaration
@@ -107,9 +108,8 @@ module mips_cpu_adv(input clk, input rst, input [31:0] instr, input [31:0] data,
 	
 	//Instruction logic
 	add32 instr_add32(PC, PCIncr, IncrAddOut);
-	add32 brnch_add32(ID_EX_address, ID_EX_SignExtend<<2, BrnchAddOut);
-	mux BR_Mux(IncrAddOut, EX_MEM_address, BRMuxSelect, BRMuxOut);
-	//mux JMP_Mux(BRMuxOut, JmpAddr, Jump, JMPMuxOut);
+	branch_control brancher(RegData1, RegData2, IF_ID_instruction, IF_ID_address, signExtend, Branch, Jump, DoBranch, BranchAddress);
+	mux muxxer(IncrAddOut, BranchAddress, DoBranch, BranchOut);
 	
 	//Main datapath
 	control ctrl(ALUOp, RegDst, Jump, Branch, MemRead, MemtoReg, MemWrite, ALUsrc, RegWrite);
@@ -125,10 +125,10 @@ module mips_cpu_adv(input clk, input rst, input [31:0] instr, input [31:0] data,
 	hazard_unit hazard(RegAdd1, RegAdd2, ID_EX_RegWriteAdd1, ID_EX_MemRead, IF_ID_Write, PCWrite, ID_EX_Mux);
 	
 	//Attached Correctly Pipelined
-	IF_ID_Reg if_id_reg(clk, rst, IF_ID_Write, IncrAddOut, instr, IF_ID_address, IF_ID_instruction);
+	IF_ID_Reg if_id_reg(clk, rst, IF_ID_Write, DoBranch, IncrAddOut, instr, IF_ID_address, IF_ID_instruction);
 		
 	ID_EX_Reg id_ex_reg(clk, rst, ID_EX_Mux, RegWrite, MemtoReg, Branch, MemRead, MemWrite, RegDst, ALUOp, ALUsrc,
-		IF_ID_address, RegData1, RegData2, signExtend, RegAdd1, RegAdd2, IF_ID_instruction[20:16], IF_ID_instruction[15:11],
+		IF_ID_address, RegData1, RegData2, signExtend, IF_ID_instruction[20:16], IF_ID_instruction[15:11], RegAdd1, RegAdd2, 
 		ID_EX_RegWrite, ID_EX_MemtoReg, 
 		ID_EX_Branch, ID_EX_MemRead, ID_EX_MemWrite, 
 		ID_EX_RegDest, ID_EX_ALUOp, ID_EX_ALUSrc,
@@ -137,14 +137,14 @@ module mips_cpu_adv(input clk, input rst, input [31:0] instr, input [31:0] data,
 		ID_EX_RegAdd1, ID_EX_RegAdd2);
 		
 	EX_MEM_Reg ex_mem_reg(clk, rst, ID_EX_RegWrite, ID_EX_MemtoReg, ID_EX_Branch, ID_EX_MemRead, ID_EX_MemWrite, 
-		BrnchAddOut, ALUResult, Zero, ID_EX_RegData2, RegWAdd,
+		BrnchAddOut, ALUResult, Zero, ALU_Mux_In, RegWAdd,
 		EX_MEM_RegWrite, EX_MEM_MemtoReg, EX_MEM_Branch, EX_MEM_MemRead, EX_MEM_MemWrite, 
 		EX_MEM_address, EX_MEM_ALUResult, EX_MEM_zero, EX_MEM_WriteData, EX_MEM_RegWriteAdd);
 		
 	MEM_WB_Reg mem_wb_reg(clk, rst, EX_MEM_RegWrite, EX_MEM_MemtoReg, data, EX_MEM_ALUResult, EX_MEM_RegWriteAdd,
 		MEM_WB_RegWrite, MEM_WB_MemtoReg, MEM_WB_MemoryData, MEM_WB_ALUResult, MEM_WB_RegWriteAdd);
 		
-	always@(posedge clk, posedge rst)
+	always@(negedge clk, posedge rst)
 	begin 
 		if(rst)
 			begin
@@ -153,9 +153,9 @@ module mips_cpu_adv(input clk, input rst, input [31:0] instr, input [31:0] data,
 		else
 			begin
 				if(ALUOp == 6'h3f) begin
-					$finish;
+					#40 $finish;
 				end
-				PC <= (PCWrite == 1'b1) ? PC : BRMuxOut;//JMPMuxOut;
+				PC <= (PCWrite == 1'b1) ? PC : BranchOut;
 			end
 	end
 endmodule

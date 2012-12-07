@@ -20,6 +20,6 @@ module mips_tb();
 		clk = 0;
 		//PC reset to 32'h1000 at rst=1
 		#1 rst = 1'b1;
-		#13 rst = 1'b0;
+		#16 rst = 1'b0;
 	end
 endmodule

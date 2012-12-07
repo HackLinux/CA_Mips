@@ -17,9 +17,11 @@ module regbank (r0Addr, r1Addr, wAddr, wData, wEn, r0Out, r1Out, CLK, reset);
 			end
 		
 		end
-     	if (wEn & ~reset) begin
-			regbank[wAddr] <= wData;
+     	
+        if (wEn & ~reset) begin
+			regbank[wAddr] = wData;
 		end
+
 	end
 endmodule
 	

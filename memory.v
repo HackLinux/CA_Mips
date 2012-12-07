@@ -67,7 +67,7 @@ initial
 
 assign  data_out = (mem_read) ? {memory[data_addr+3], memory[data_addr+2], memory[data_addr+1], memory[data_addr]} : 32'b0;
 
-always @ (negedge clk)
+always @ (posedge clk)
 begin
 	if(mem_write)
 	begin
